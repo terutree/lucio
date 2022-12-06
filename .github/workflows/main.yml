@@ -1,8 +1,0 @@
-- name: IIS Deploy
-  uses: ChristopheLav/iis-deploy@v1.0.0
-  with:
-    website-name: yolo
-    msdeploy-service-url: test
-    msdeploy-username: test2
-    msdeploy-password: testpsw
-    source-path: http://about:blank
