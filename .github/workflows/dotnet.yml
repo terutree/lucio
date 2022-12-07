@@ -29,8 +29,8 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - uses: ChristopheLav/iis-deploy@v1
       with:
-        website-name: wwwroot
+        website-name: powerpike
         msdeploy-service-url: ${{ secrets.MSDEPLOY_URL }}
         msdeploy-username: ${{ secrets.MSDEPLOY_USERNAME }}
         msdeploy-password: ${{ secrets.MSDEPLOY_PASSWORD }}
-        source-path: ${{ github.workspace }}\wwwroot
+        source-path: ${{ github.workspace }}\wwwroot\
