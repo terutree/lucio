@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tstiegle\\OneDrive - Capgemini\\Documents\\homelab\\lucio\\aspnetcoreapp\\aspnetcoreapp.csproj",
+      "projectUniqueName": "C:\\Users\\tstiegle\\OneDrive - Capgemini\\Documents\\homelab\\lucio\\aspnetcoreapp.csproj",
       "projectName": "aspnetcoreapp",
-      "projectPath": "C:\\Users\\tstiegle\\OneDrive - Capgemini\\Documents\\homelab\\lucio\\aspnetcoreapp\\aspnetcoreapp.csproj",
+      "projectPath": "C:\\Users\\tstiegle\\OneDrive - Capgemini\\Documents\\homelab\\lucio\\aspnetcoreapp.csproj",
       "packagesPath": "C:\\Users\\tstiegle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tstiegle\\OneDrive - Capgemini\\Documents\\homelab\\lucio\\aspnetcoreapp\\obj\\",
+      "outputPath": "C:\\Users\\tstiegle\\OneDrive - Capgemini\\Documents\\homelab\\lucio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tstiegle\\AppData\\Roaming\\NuGet\\NuGet.Config"
