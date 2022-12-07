@@ -30,4 +30,4 @@ jobs:
     - uses: cschleiden/webdeploy-action@v1
       with:
         webSiteName: 'powerpike'
-        package: ${{ format('{0}\lucio\bin\debug\.net6.0\', runner.workspace) }}
+        package: ${{ format('{0}\lucio\bin\Debug\net6.0\', runner.workspace) }}
