@@ -1,10 +1,7 @@
-using Microsoft.AspNetCore.Mvc.Razor;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-//builder.Services.AddRazorPages();
-builder.Services.AddRazorPages().AddRazorRunTimeCompilation;
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
