@@ -16313,11 +16313,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tstiegle\\OneDrive - Capgemini\\Documents\\homelab\\lucio\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\tstiegle\\OneDrive - Capgemini\\Documents\\homelab\\lucio\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
