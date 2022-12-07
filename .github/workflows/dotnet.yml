@@ -27,10 +27,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - uses: ChristopheLav/iis-deploy@v1
+    - uses: cschleiden/webdeploy-action@v1
       with:
-        website-name: wwwroot
-        msdeploy-service-url: ${{ secrets.MSDEPLOY_URL }}
-        msdeploy-username: ${{ secrets.MSDEPLOY_USERNAME }}
-        msdeploy-password: ${{ secrets.MSDEPLOY_PASSWORD }}
-        source-path: ${{ github.workspace }}\wwwroot
+        webSiteName: 'powerpike'
+        package: ${{ format('{0}\dist', runner.workspace) }}
